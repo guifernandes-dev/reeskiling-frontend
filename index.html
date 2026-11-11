@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - SCSS e BEM</title>
+  <!-- O arquivo gerado pelo compilador Sass -->
+  <link rel="stylesheet" href="scss/main.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+      <h1 class="header__title">Meu Dashboard</h1>
+      <nav class="header__nav">
+          <ul class="header__list">
+              <li class="header__item"><a href="#" class="header__link">Home</a></li>
+              <li class="header__item"><a href="#" class="header__link">Projetos</a></li>
+              <li class="header__item"><a href="#" class="header__link">Perfil</a></li>
+          </ul>
+      </nav>
+  </header>
+
+  <!-- WRAPPER PRINCIPAL -->
+  <main class="dashboard">
+    
+    <!-- SIDEBAR -->
+    <aside class="dashboard__sidebar sidebar">
+      <p class="sidebar__title">Navegação</p>
+      <ul class="sidebar__list">
+        <li class="sidebar__item"><a href="#" class="sidebar__link">Geral</a></li>
+        <li class="sidebar__item"><a href="#" class="sidebar__link">Configurações</a></li>
+        <li class="sidebar__item"><a href="#" class="sidebar__link">Sair</a></li>
+      </ul>
+    </aside>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <section class="dashboard__content">
+      <h2 class="dashboard__title">Meus Projetos Recentes</h2>
+
+      <!-- CARTÃO 1 -->
+      <div class="card">
+        <img src="https://via.placeholder.com/300x150" alt="Imagem do Projeto" class="card__image">
+        <h3 class="card__title">Projeto Alpha</h3>
+        <p class="card__description">Descrição inicial do projeto. Este layout quebra se o texto for muito longo.</p>
+        <a href="#" class="btn btn--primary">Acessar Projeto</a>
+      </div>
+
+      <!-- CARTÃO 2 -->
+      <div class="card">
+        <img src="https://via.placeholder.com/300x150" alt="Imagem do Projeto" class="card__image">
+        <h3 class="card__title">Projeto Beta</h3>
+        <p class="card__description">Uma breve descrição para compor o layout deste cartão básico.</p>
+        <a href="#" class="btn btn--primary">Acessar Projeto</a>
+      </div>
+
+      <!-- CARTÃO 2 -->
+      <div class="card">
+        <img src="https://via.placeholder.com/300x150" alt="Imagem do Projeto" class="card__image">
+        <h3 class="card__title">Projeto Beta</h3>
+        <p class="card__description">Uma breve descrição para compor o layout deste cartão básico.</p>
+        <a href="#" class="btn btn--primary">Acessar Projeto</a>
+      </div>
+
+      <!-- CARTÃO 2 -->
+      <div class="card">
+        <img src="https://via.placeholder.com/300x150" alt="Imagem do Projeto" class="card__image">
+        <h3 class="card__title">Projeto Beta</h3>
+        <p class="card__description">Uma breve descrição para compor o layout deste cartão básico.</p>
+        <a href="#" class="btn btn--primary">Acessar Projeto</a>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
